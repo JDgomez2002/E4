@@ -7,6 +7,15 @@
 //Sección 11
 //Actividad: Ejercicio 4
 
+/**
+ * Clase MAIN.
+ * 
+ * @author José Daniel Gómez cabrera
+ * @version MAIN Class 1.1
+ */
 public class MAIN {
-    
+    public static void main(String[] args) {
+        Controlador programa = new Controlador();
+        programa.Simulador_de_batalla();
+    }
 }
