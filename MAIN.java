@@ -15,7 +15,13 @@
  */
 public class MAIN {
     public static void main(String[] args) {
-        Controlador programa = new Controlador();
-        programa.Simulador_de_batalla();
+        try{
+            Controlador programa = new Controlador();
+            programa.Simulador_de_batalla();
+        }
+        catch(Exception e){
+            String s = "Ha ocurrido un error: "+e.getMessage();
+            System.out.println(s);
+        }
     }
 }
